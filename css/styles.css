@@ -1,0 +1,358 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --color-IRIS: #4D5AE5;
+    --color-OCEAN: #404BBF;
+    --color-NAVY_BLUE: #2E2F42;
+    --color-SLATE: #434455;
+    --color-CORNFLOWER: #E7E9FC;
+    --color-CLOUD: #F4F4FD;
+    --color-WHITE: #FFFFFF;
+}
+img {
+    display: block;
+}
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.upp {
+    border-bottom: 1px solid var(--color-CORNFLOWER);
+}
+.header-visuals {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.visuals-for-nav {
+    display: flex;
+    align-items: center;
+}
+.logo-up {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+    margin-right: 76px;
+    
+
+}
+
+.logo-up>.first-span {
+    color: #2E2F42;
+    ;
+}
+.logo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.list {
+    list-style: none;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: 332px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
+}
+
+.main-element {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0px;
+
+}
+
+.main-element:hover,
+.main-element:focus {    
+    color: #404bbf;
+}
+
+.contact-info {
+    font-style: normal;
+}
+.mail-or-call {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0px 24px 0px;
+}
+.contact-data {
+    text-decoration: none;
+    font-size: 16px;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contact-data:hover,
+.contact-data:focus {
+    color: #404bbf;
+}
+
+.hii {
+    background-color: #2E2F42;
+    padding: 188px 0px;
+}
+
+.intro {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    max-width: 496px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+   
+}
+
+.action {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.action:hover,
+.action:focus {
+    background-color: #404BBF;
+}
+.hiitwo {
+    padding: 120px 0px;
+
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.some {
+    display: flex;
+    gap: 24px;
+
+}
+.enlist {
+    width: calc((100% - 72px) / 4);
+}
+.values {
+    color: #2E2F42;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.explain {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.hiithree {
+    padding-bottom: 120px;
+}
+
+.symbols {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.another {
+    display: flex;
+    gap: 24px;
+}
+
+.things {
+    width: calc((100% - 48px) / 3)
+}
+.pals {
+    background-color: var(--color-CLOUD);
+    padding: 120px 0;    
+}
+
+.team {
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.vibrant {
+    display: flex;
+    gap: 24px;
+
+}
+
+.face {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.inscription {
+    padding: 32px 0;
+}
+.name {
+    color: var(--color-NAVY_BLUE);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.occupation {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.down {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+.logo-down {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+    margin-right: 76px;
+    display:inline-block;
+    margin-bottom: 16px;
+
+
+
+}
+.logo-down>.second-span {
+    color: #F4F4FD;
+}
+
+.motto {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+}
+.port-main-sec {
+padding-top: 96px;
+padding-bottom: 120px;
+}
+.port-butt {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+
+}
+.for-clicking {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 4px;
+
+}
+.for-clicking:hover,.for-clicking:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    border: 1px solid transparent
+}
+
+.port-im {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.port-im-element {
+    width: calc((100% - 48px) / 3);
+}
+.aaa {
+    text-decoration: none;
+    width: calc((100%-48px)/3);
+}
+.port-descr {
+    padding: 32px 16px;
+    border: 1px solid var(--color-CORNFLOWER);
+    border-top: none;
+    
+}
+.option {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+
+}
+
+.description {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
