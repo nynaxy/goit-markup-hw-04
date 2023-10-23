@@ -24,6 +24,7 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+/* dane do header*/
 .upp {
     border-bottom: 1px solid var(--color-CORNFLOWER);
 }
@@ -50,7 +51,6 @@ body {
     
 
 }
-
 .logo-up>.first-span {
     color: #2E2F42;
     ;
@@ -73,7 +73,6 @@ body {
     padding-bottom: 24px;
     
 }
-
 .main-element {
     text-decoration: none;
     font-size: 16px;
@@ -84,12 +83,10 @@ body {
     padding: 24px 0px;
 
 }
-
 .main-element:hover,
 .main-element:focus {    
     color: #404bbf;
 }
-
 .contact-info {
     font-style: normal;
 }
@@ -105,17 +102,20 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 .contact-data:hover,
 .contact-data:focus {
     color: #404bbf;
 }
-
+/* dane do index main section 1 */
 .hii {
     background-color: #2E2F42;
     padding: 188px 0px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
+    background-size: cover;
+    
 }
-
+.first-section {
+}
 .intro {
     color: #FFFFFF;
     font-weight: 700;
@@ -128,7 +128,6 @@ body {
     padding-bottom: 48px;
    
 }
-
 .action {
     color: #FFFFFF;
     background-color: #4D5AE5;
@@ -146,11 +145,11 @@ body {
     border-radius: 4px;
     margin: 0 auto;
 }
-
 .action:hover,
 .action:focus {
     background-color: #404BBF;
 }
+/*dane do index main section 2 */
 .hiitwo {
     padding: 120px 0px;
 
@@ -183,15 +182,14 @@ body {
     font-weight: 500;
     margin-bottom: 8px;
 }
-
 .explain {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/* dane do index main section 3 */
 .hiithree {
     padding-bottom: 120px;
 }
-
 .symbols {
     color: #2E2F42;
     font-weight: 700;
@@ -206,15 +204,14 @@ body {
     display: flex;
     gap: 24px;
 }
-
 .things {
     width: calc((100% - 48px) / 3)
 }
+/* dane do index main section 4 */
 .pals {
     background-color: var(--color-CLOUD);
     padding: 120px 0;    
 }
-
 .team {
     color: #2e2f42;
     font-size: 36px;
@@ -230,7 +227,6 @@ body {
     gap: 24px;
 
 }
-
 .face {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
@@ -248,7 +244,6 @@ body {
     text-align: center;
     margin-bottom: 8px;
 }
-
 .occupation {
     color: var(--text-color);
     font-size: 16px;
@@ -257,7 +252,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
 }
-
+/* dane do footer */
 .down {
     background-color: #2e2f42;
     padding: 100px 0;
@@ -281,13 +276,13 @@ body {
 .logo-down>.second-span {
     color: #F4F4FD;
 }
-
 .motto {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
 }
+/* portfolio main */
 .port-main-sec {
 padding-top: 96px;
 padding-bottom: 120px;
@@ -319,7 +314,6 @@ padding-bottom: 120px;
     color: #FFFFFF;
     border: 1px solid transparent
 }
-
 .port-im {
     display: flex;
     flex-wrap: wrap;
@@ -348,7 +342,6 @@ padding-bottom: 120px;
     margin-bottom: 8px;
 
 }
-
 .description {
     color: #434455;
     font-size: 16px;
