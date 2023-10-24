@@ -177,6 +177,9 @@ body {
     height: 112px; 
     border-radius: 4px;
     background-color: var(--color-CLOUD);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .values {
     color: #2E2F42;
