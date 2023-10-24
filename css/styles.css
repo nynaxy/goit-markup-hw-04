@@ -274,6 +274,29 @@ body {
     border-radius: 90%;
     padding: 12px;
 }
+/* dane do index main customers */
+.customers {
+    padding: 120px;
+}
+.recomendations {
+    width: 1128px;
+    height: 200px;
+}
+.who-uses {
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+.customer-examples {
+
+}
+.customer-icon {
+
+}
 /* dane do footer */
 .down {
     background-color: #2e2f42;
