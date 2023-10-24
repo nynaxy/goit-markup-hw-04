@@ -260,6 +260,19 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    padding-bottom: 8px;
+}
+.social-links {
+    display: flex;
+    gap: 24px;
+    justify-content: center;    
+}
+.socials {
+    background-color: var(--color-IRIS);
+    width: 40px;
+    height: 40px;
+    border-radius: 90%;
+    padding: 12px;
 }
 /* dane do footer */
 .down {
