@@ -329,6 +329,9 @@ padding-bottom: 120px;
 .port-im-element {
     width: calc((100% - 48px) / 3);
 }
+.port-im-element:hover,.port-im-element:focus {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
+}
 .aaa {
     text-decoration: none;
     width: calc((100%-48px)/3);
