@@ -298,13 +298,14 @@ body {
 .customer-examples {
     display: flex;
     gap: 24px;
+
     
 }
 .customer-icon {
     width: 168px;
     height: 88px;
     border-radius: 4px;
-    border: 1px var(--color-LIGHT_STATE);
+    border: 1px  var(--color-LIGHT_STATE);
     justify-content: center;
 
 }
@@ -337,7 +338,36 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-right: 120px;
 }
+.feet-social {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.social-media-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-WHITE);
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+.footer-social {
+    display: flex;
+    gap: 16px;
+
+}
+.footer-logos {
+    background-color: var(--color-IRIS);
+    width: 40px;
+    height: 40px;
+    border-radius: 90%;
+    padding: 8px;
+
+}
+
 /* portfolio main */
 .port-main-sec {
 padding-top: 96px;
