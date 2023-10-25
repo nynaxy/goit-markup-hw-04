@@ -28,6 +28,10 @@ body {
 /* dane do header*/
 .upp {
     border-bottom: 1px solid var(--color-CORNFLOWER);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
+        max-width: 1440px;
 }
 .header-visuals {
     display: flex;
@@ -113,6 +117,9 @@ body {
     padding: 188px 0px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
     background-size: cover;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 .intro {
