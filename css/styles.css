@@ -285,8 +285,8 @@ body {
     padding: 12px;
 }
 .connect {
-    width: 100%;
-    height: 100%;
+    width:100%;
+    height:100%;
     background-color: var(--color-IRIS);
     border-radius: 50%;
     display: flex;
@@ -298,6 +298,9 @@ body {
 .connect:focus {
     background-color: var(--color-OCEAN);
 
+}
+.social-svg {
+    fill: var(--color-CLOUD);
 }
 /* dane do index main customers */
 .customers {
