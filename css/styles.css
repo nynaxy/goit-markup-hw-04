@@ -357,7 +357,7 @@ body {
     align-items: baseline;
 }
 .feet-words {
-    margin-right: 120px;
+    gap: 120px;
 }
 .logo-down {
     text-decoration: none;
@@ -383,7 +383,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-right: 120px;
+    
 }  
 .social-media-name {
     font-size: 16px;
