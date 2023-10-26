@@ -290,6 +290,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .connect:hover,
@@ -333,6 +335,8 @@ body {
     align-items: center;
     justify-content: center;
     color: #8e8f99;
+    height: 100%;
+    width: 100%;
 }
 .customer-link:hover,.customer-link:focus {
     border-color: #404BBF;
