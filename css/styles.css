@@ -357,7 +357,7 @@ body {
     align-items: baseline;
 }
 .feet-words {
-    gap: 120px;
+    margin-right: 120px;
 }
 .logo-down {
     text-decoration: none;
