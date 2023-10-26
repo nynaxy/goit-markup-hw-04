@@ -344,6 +344,9 @@ body {
     border-color: #404BBF;
     color: #404BBF;
 }
+.customer-svg {
+    fill: currentColor;
+}
 /* dane do footer */
 .down {
     background-color: #2e2f42;
