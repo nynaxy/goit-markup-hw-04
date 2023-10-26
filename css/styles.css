@@ -281,8 +281,8 @@ body {
     background-color: var(--color-IRIS);
     width: 40px;
     height: 40px;
-    border-radius: 90%;
-    padding: 12px;
+    border-radius: 50%;
+    
 }
 .connect {
     background-color: var(--color-IRIS);
