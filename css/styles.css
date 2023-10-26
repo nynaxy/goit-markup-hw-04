@@ -327,7 +327,8 @@ body {
     gap: 24px;
 }
 .customer-icon {
-    fill: currentColor;
+    width: calc((100% - 120px) / 6);
+    height: 88px;
 }
 .customer-link {
     border: 1px solid #8e8f99;
