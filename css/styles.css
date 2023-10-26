@@ -325,8 +325,9 @@ body {
 .customer-examples {
     display: flex;
     gap: 24px;
-
-    
+}
+.customer-icon {
+    fill: currentColor;
 }
 .customer-link {
     border: 1px solid #8e8f99;
@@ -342,13 +343,17 @@ body {
     border-color: #404BBF;
     color: #404BBF;
 }
-.customer-icon {
-    fill: currentColor;
-}
 /* dane do footer */
 .down {
     background-color: #2e2f42;
     padding: 100px 0;
+}
+.feet-all {
+    display: flex;
+    align-items: baseline;
+}
+.feet-words {
+    margin-right: 120px;
 }
 .logo-down {
     text-decoration: none;
@@ -375,18 +380,12 @@ body {
     letter-spacing: 0.02em;
     max-width: 264px;
     margin-right: 120px;
-}
-.feet-social {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    
-}
+}  
 .social-media-name {
     font-size: 16px;
     font-weight: 500;
     color: var(--color-WHITE);
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
@@ -396,14 +395,24 @@ body {
 
 }
 .footer-logos {
-    background-color: var(--color-IRIS);
     width: 40px;
     height: 40px;
-    border-radius: 90%;
-    padding: 8px;
-
 }
-
+.sm-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sm-link:hover, .sm-link:focus {
+    background-color: #31d0aa;
+}
+.sm-svg {
+    fill: #f4f4fd;
+}
 /* portfolio main */
 .port-main-sec {
 padding-top: 96px;
